@@ -51,7 +51,7 @@ int Stack::pop()
 int Stack::peek(int index) //position as :- topmost being 1
 {
     int x = -1;
-    if (top-index+1 < 0 || top-index+1 == size) //top-index+1 is the actual indexing of the stack array
+    if (top-index+1 < 0 || top-index+1 >= size) //top-index+1 is the actual indexing of the stack array
     {
         cout<<" Invalid position! "<<endl;
     }
