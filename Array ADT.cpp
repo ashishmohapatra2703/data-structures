@@ -330,7 +330,7 @@ int main()
 
     Array *arr1; //a pointer of type Array
     arr1=new Array(sz); //The data type of pointer and the variable must match
-                        //Array is a class name . ( ) are used for calling it’s constructor.
+                        //Array is a class name . ( ) are used for calling itâ€™s constructor.
 
     // OR use directly  Array arr1(sz);
 
